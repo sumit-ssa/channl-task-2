@@ -57,12 +57,12 @@ const Hero = () => {
       </div>
       <Navbar />
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center pb-[25vh] lg:pb-0  ">
-        <h1 className="text-5xl font-bold leading-tight mb-4 flex items-center flex-col md:flex-row gap-1 ">
+        <div className="text-5xl font-bold leading-tight flex items-center flex-col md:flex-row gap-1 ">
           <span className="text-4xl lg:text-5xl">WELCOME TO</span>
           <span className="text-gradient bg-gradient-to-r from-[#4a1d69] to-[#D1378D] px-2">
             CHANNL WORKS
           </span>
-        </h1>
+        </div>
 
         <Search
           search={search}
